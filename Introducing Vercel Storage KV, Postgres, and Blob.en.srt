@@ -1,0 +1,170 @@
+﻿1
+00:00:05,790 --> 00:00:09,630
+The frontend cloud wouldn't be
+complete without addressing data. 
+
+2
+00:00:10,140 --> 00:00:14,130
+As frontend frameworks continue
+moving towards the server and the
+
+3
+00:00:14,130 --> 00:00:19,470
+edge, it's time to bring Vercel's
+developer experience to databases.
+
+4
+00:00:19,900 --> 00:00:24,300
+You want a database that just works with
+the modern primitives of Vercel, like
+
+5
+00:00:24,450 --> 00:00:28,530
+serverless and edge functions, and it's
+built on open standards and protocols.
+
+6
+00:00:29,415 --> 00:00:35,295
+Today we're announcing databases on
+Vercel powered by the best infrastructure
+
+7
+00:00:35,295 --> 00:00:37,875
+providers to make that dream a reality.
+
+8
+00:00:39,005 --> 00:00:42,375
+Vercel Blob makes it easy
+to store files in the cloud.
+
+9
+00:00:42,765 --> 00:00:45,195
+It's fast, easy, and efficient.
+
+10
+00:00:46,125 --> 00:00:50,355
+We've designed a simple, yet
+powerful API for storage, built
+
+11
+00:00:50,355 --> 00:00:52,635
+entirely on top of web standards.
+
+12
+00:00:53,325 --> 00:00:58,455
+This means that your users can easily
+upload files or attachments of any size.
+
+13
+00:00:59,280 --> 00:01:03,030
+You can call the Vercel Blob API
+securely from your edge functions.
+
+14
+00:01:03,809 --> 00:01:09,030
+It accepts a web stream that returns
+an immutable URL you can expose to
+
+15
+00:01:09,030 --> 00:01:11,160
+your visitors or put into storage.
+
+16
+00:01:12,060 --> 00:01:15,450
+One of the most common tools I
+like to reach for is a general
+
+17
+00:01:15,455 --> 00:01:17,050
+purpose key value store.
+
+18
+00:01:18,330 --> 00:01:23,670
+Vercel KV makes serverless Redis
+easy and durable to quickly implement
+
+19
+00:01:23,670 --> 00:01:27,720
+features like rate limiting, session
+management, and application states.
+
+20
+00:01:28,770 --> 00:01:33,900
+Reimagining storage frontend first
+means creating a developer experience
+
+21
+00:01:33,900 --> 00:01:38,670
+where you don't need to manage scaling,
+instant sizes or Redis clusters.
+
+22
+00:01:38,730 --> 00:01:40,590
+It's truly serverless.
+
+23
+00:01:41,789 --> 00:01:45,690
+Our lightweight, Redis compatible
+SDK works from your edge or
+
+24
+00:01:45,695 --> 00:01:50,610
+serverless function and scales
+infinitely with your traffic, and
+
+25
+00:01:50,610 --> 00:01:52,620
+you can use all your favorite tools.
+
+26
+00:01:52,620 --> 00:01:53,789
+Like the Redis CLI.
+
+27
+00:01:54,690 --> 00:01:56,250
+Oh, and it's really fast.
+
+28
+00:01:57,390 --> 00:02:01,860
+We love Redis, but sometimes
+you want the full power of SQL.
+
+29
+00:02:02,790 --> 00:02:07,440
+Vercel Postgres delivers on the dream
+of serverless SQL for the frontend
+
+30
+00:02:07,440 --> 00:02:12,630
+cloud, we've integrated the most
+innovative Postgres infrastructure, so
+
+31
+00:02:12,660 --> 00:02:17,280
+you don't have to manage connections or
+manually scale Postgres in the cloud.
+
+32
+00:02:18,300 --> 00:02:19,380
+Let that sink in.
+
+33
+00:02:20,010 --> 00:02:23,820
+This means that you can now
+easily and securely query data
+
+34
+00:02:23,820 --> 00:02:28,650
+directly from your React server
+components and not just querying.
+
+35
+00:02:28,770 --> 00:02:33,480
+You can also insert, update or
+delete data with server actions.
+
+36
+00:02:34,170 --> 00:02:39,990
+Head to vercel.com/storage to start
+building with Postgres, KV and Blob.
+
